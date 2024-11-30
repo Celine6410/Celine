@@ -1,0 +1,118 @@
+body{ 
+    background-image: url(background\ 1.jpg) ; 
+    background-size: cover; 
+} 
+.header {
+    position: relative;
+    max-width: 1280px; 
+    max-height: 130px;
+    margin: 0 auto; 
+    padding: 10px; 
+}
+
+.footer {
+    position: relative;
+    max-width: 1280px; 
+    max-height: 100px;
+    margin: 0 auto; 
+    padding: 10px; 
+}
+
+
+img.h{
+    border: 7px outset rgb(149, 203, 253);
+    border-radius: 13px;
+    width: 300px;
+    height: 250px;
+}
+
+img:hover .h {
+    border-color: rgb(20, 26, 66);
+}
+
+img:hover {
+    background-color: rgb(48, 37, 52);
+    box-shadow: 1px 2px 10px;
+    border-radius: 13px;
+}
+
+ul {
+    background-color: blue;
+    list-style: none;
+    padding: 0;
+    width: 1360px; 
+    height: 70px;
+    text-align: left;
+    border-radius: 0;
+    box-shadow: 5px 3px 0px rgba(55, 75, 140, 0.721);
+    display: flex; 
+    align-items: center;
+    gap: 18px;
+}
+
+ul li {
+    display: inline-block;
+    position: relative;
+    height: 60px;
+    padding: 10px;
+}
+
+ul li a img {
+    border: 5px outset rgb(149, 203, 253);
+    border-radius: 13px;
+}
+
+ul li a:hover img {
+    border-color: rgb(20, 26, 66);
+}
+
+ul a:hover {
+    background-color: rgb(48, 37, 52);
+    box-shadow: 1px 2px 10px;
+    border-radius: 13px;
+}
+
+/* Dropdown menu styles */
+ul li ul.dropdown {
+    position: absolute;
+    display: block;
+    width: auto;
+    height: auto;
+    margin: 0;
+    border-radius: 13px;
+    transform: translateY(-20px);
+    opacity: 0;
+    z-index: 1;
+}
+
+ul li:hover ul.dropdown {
+    display: block;
+    transform: translateY(0);
+    opacity: 1;
+    pointer-events: fill;
+}
+
+ul li ul.dropdown a {
+    display: block;
+    background: none;
+    padding: 0;
+}
+
+ul li ul.dropdown a:hover {
+    transform: scale(1.2);
+}
+
+
+/* kode css side bar */ 
+.column.middle{ 
+    float: left; 
+    padding: 0px 10px;
+    color: rgb(35, 10, 193);
+   background-color: rgb(70, 193, 234);
+   border-radius: 5px;
+   margin-bottom: 25px;
+} 
+
+/* Left column */  
+.column.side{ margin: 170px; } 
+a{ color: black; text-decoration: none; } 
